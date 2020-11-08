@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F4A793821257D80006D04F9 /* ArchivedTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A793721257D80006D04F9 /* ArchivedTasksViewController.swift */; };
+		FB12266C25585A6C0085B69A /* TestTasksScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12266B25585A6C0085B69A /* TestTasksScreens.swift */; };
 		FB816EBF2554947000D27645 /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB816EBE2554947000D27645 /* TestConfig.swift */; };
 		FB816EEB25580B6600D27645 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB816EEA25580B6600D27645 /* Helpers.swift */; };
-		FB816EFA25581BA100D27645 /* TestTasksScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB816EF925581BA100D27645 /* TestTasksScreens.swift */; };
 		FD0BBFEE210F5DC9004A0BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BBFED210F5DC9004A0BBF /* AppDelegate.swift */; };
 		FD0BBFF0210F5DC9004A0BBF /* ActiveTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BBFEF210F5DC9004A0BBF /* ActiveTasksViewController.swift */; };
 		FD0BBFF5210F5DCA004A0BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0BBFF3210F5DC9004A0BBF /* Main.storyboard */; };
@@ -31,11 +31,11 @@
 
 /* Begin PBXFileReference section */
 		4F4A793721257D80006D04F9 /* ArchivedTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchivedTasksViewController.swift; sourceTree = "<group>"; };
+		FB12266B25585A6C0085B69A /* TestTasksScreens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTasksScreens.swift; sourceTree = "<group>"; };
 		FB816EAE25548BD400D27645 /* UITestTechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestTechTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB816EB225548BD500D27645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB816EBE2554947000D27645 /* TestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfig.swift; sourceTree = "<group>"; };
 		FB816EEA25580B6600D27645 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		FB816EF925581BA100D27645 /* TestTasksScreens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestTasksScreens.swift; path = ../../../.Trash/TestTasksScreens.swift; sourceTree = "<group>"; };
 		FD0BBFEA210F5DC9004A0BBF /* UITestTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITestTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0BBFED210F5DC9004A0BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0BBFEF210F5DC9004A0BBF /* ActiveTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTasksViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		FB816EAF25548BD400D27645 /* UITestTechTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FB816EF925581BA100D27645 /* TestTasksScreens.swift */,
+				FB12266B25585A6C0085B69A /* TestTasksScreens.swift */,
 				FB816EEA25580B6600D27645 /* Helpers.swift */,
 				FB816EBE2554947000D27645 /* TestConfig.swift */,
 				FB816EB225548BD500D27645 /* Info.plist */,
@@ -209,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB816EFA25581BA100D27645 /* TestTasksScreens.swift in Sources */,
 				FB816EEB25580B6600D27645 /* Helpers.swift in Sources */,
+				FB12266C25585A6C0085B69A /* TestTasksScreens.swift in Sources */,
 				FB816EBF2554947000D27645 /* TestConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
